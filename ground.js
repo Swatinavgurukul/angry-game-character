@@ -1,13 +1,13 @@
 class Ground{
-    constructor(x,y,w,h){
+    constructor(x,y,width,heigh){
         this.x=x;
         this.y=y;
-        this.w=w;
-        this.h=h;
+        this.width=width;
+        this.heigh=heigh;
     }
 
     show(){
-        fill(0);
-        rect(this.x,this.y,this.w,this.h);
+        fill(20);
+        rect(this.x,this.y,this.width,this.heigh);
     }
 }
